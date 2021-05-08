@@ -1,0 +1,10 @@
+label{
+    margin-top:10px;
+    margin-bottom: 5px;
+}
+select{
+    pointer-events: none;
+    touch-action: none;
+    -webkit-appearance: none; appearance: none;
+    padding:5px;
+}

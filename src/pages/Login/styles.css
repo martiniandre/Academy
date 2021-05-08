@@ -1,0 +1,28 @@
+.form-container{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background:#EF271B;
+}
+.form-container h2{
+    margin-bottom: 2rem;
+    display: inline;
+    width: fit-content;
+    padding:0.5rem;
+    background:#FEF9FF;
+}
+
+#register{
+    width: 70%;
+    font-size: 1.1rem;
+    color:#fff;
+    padding: 15px;
+    margin:0 auto;
+    border:2px solid palevioletred;
+    background-color:#841C26;
+}
+#register:hover{
+    opacity: 0.8;
+}

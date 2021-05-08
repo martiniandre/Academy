@@ -1,0 +1,15 @@
+form{
+    width:90%;
+    max-width:350px;
+    height: auto;
+    margin: 0 auto;
+    background:#F71735;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 4px 0.5px #000000;
+  -moz-box-shadow: 0px 0px 4px 0.5px #000000;
+  box-shadow: 0px 0px 4px 0.5px #000000;
+    border:1px solid #F71735
+}

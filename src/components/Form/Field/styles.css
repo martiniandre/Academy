@@ -1,0 +1,64 @@
+.input-label{
+    position: relative;
+}
+.input-span{
+    position: absolute;
+    color:#333;
+    z-index: 1;
+    top:0;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+}
+.input-field{
+    width: 100%;;
+    padding:5px 3px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border:1px solid #333;
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+
+}
+
+.input-label input:focus-within{
+    background: rgb(233, 222, 222);
+}
+.input-label input:focus + .input-span,
+.input-label input:not(:placeholder-shown) + .input-span{
+    color:black;
+    top:-23px;
+    margin-left: 0;
+}
+
+input[type=checkbox]{
+    width:150px;
+    height:150px;
+    outline: none;
+    position: absolute;
+    z-index: -1;
+    display: block;
+    background-color: red;
+}
+input[type=checkbox]:checked + div{
+    background-color: red;
+}
+.input-checkbox{
+    height: 150px;
+    width: 150px;
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 2;
+}
+.input-checkbox div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
